@@ -17,8 +17,8 @@
 						<td class="todos-column" scope="row">@t.Id</td>
 						<td class="todos-column">@t.Name</td>
 						<td class="buttons-column">
-							<input type="submit" value="Delete" onclick="deleteTodo(@t.Id, '@t.Name')" />
-							<input type="submit" value="Update" onclick="updateTodo(@t.Id, '@t.Name')" />
+							<input type="submit" class="btn btn-danger" value="Delete" onclick="deleteTodo(@t.Id, '@t.Name')" />
+							<input type="submit" class="btn btn-primary" value="Update" onclick="updateTodo(@t.Id, '@t.Name')" />
 						</td>
 					</tr>
 				}
